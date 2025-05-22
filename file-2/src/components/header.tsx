@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const NavbarPage = () => {
   return (
     <div>
@@ -10,24 +10,24 @@ const NavbarPage = () => {
               <span className="text-xl font-bold text-blue-600">MySite</span>
             </div>
             <div className="flex space-x-4">
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/performence"
                 className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium"
               >
-                About
-              </a>
-              <a
-                href="#"
+                Performence
+              </Link>
+              <Link
+                href="/reliability"
                 className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium"
               >
-                Contact
-              </a>
+                Reliability
+              </Link>
             </div>
           </div>
         </div>
