@@ -2,7 +2,11 @@ import React from 'react'
 
 const Performence = () => {
   return (
-    <div>performemce Pages</div>
+    <div>
+     
+     <p>performemce Pages</p> 
+    </div>
+    
   )
 }
 
