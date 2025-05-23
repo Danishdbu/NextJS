@@ -21,3 +21,26 @@ export const deleteSnippet = async (id:number) =>{ await prisma.snippet.delete({
 });
 redirect("/");
 }
+
+
+export const createSnippet = async (message:string,formData: FormData) => {
+
+    const title = formData.get("title");
+    const code = formData.get("code");
+
+    if(typeof title != "string" || title.length < 4){
+        return {message:"Title is require and must be longer"}
+    }
+    if(typeof code != "string" || code.length < 8){
+        return {code:"Code is require"}
+    }
+
+    const snippet = await prisma.snippet.create({
+      data: {
+        title,
+        code,
+      },
+    });
+    console.log("created snippet", snippet);
+    redirect("/");
+  }
