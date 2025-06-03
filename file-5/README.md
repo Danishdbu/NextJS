@@ -8,3 +8,6 @@
 | **ISR**    | Build + revalidate later  | ✅ Yes            | 🟢 Fast        | News sites, product listings, hybrid |
 
 > ✅ **Tip**: Use **ISR** when you want the speed of static pages **plus** some freshness without full rebuilds.
+
+----
+dsfffff
