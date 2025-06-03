@@ -1114,6 +1114,3 @@ Use `.env` files for configuration.
 
 The Pages Router uses the `pages` directory for routing, e.g., `pages/index.js` for `/`. It’s legacy but still supported.
 
----
-
-This completes the Next.js notes with detailed explanations and examples.
