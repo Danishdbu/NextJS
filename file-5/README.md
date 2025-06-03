@@ -1,4 +1,4 @@
-### 🚀 Rendering Methods in Web Development (Next.js Focus)
+## 🚀 Rendering Methods in Web Development (Next.js Focus)
 
 | **Method** | **Render Time**           | **SEO Friendly** | **Speed**     | **Best Use Case**                    |
 |------------|---------------------------|------------------|---------------|--------------------------------------|
@@ -10,7 +10,7 @@
 > ✅ **Tip**: Use **ISR** when you want the speed of static pages **plus** some freshness without full rebuilds.
 
 ----
-# 🧭 Client Components vs Server Components in Next.js
+## 🧭 Client Components vs Server Components in Next.js
 
 | Feature                    | **Client Components**                            | **Server Components**                            |
 | -------------------------- | ------------------------------------------------ | ------------------------------------------------ |
