@@ -1,4 +1,4 @@
-# Next.js Frontend Development Notes for Beginners to Advanced Learners
+# Next.js Frontend Development Notes for Beginners to Advanced 
 
 ## Introduction to Next.js
 Next.js is a React-based framework for building modern web applications. It simplifies React development by providing features like server-side rendering (SSR), static site generation (SSG), file-based routing, and API routes, making it ideal for performance-driven, SEO-friendly applications.
