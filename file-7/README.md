@@ -1,5 +1,5 @@
-##💡 Loading Strategy Overview
-
+#💡 Loading Strategy Overview
+---
 | 🔍 **Use Case**                          | ⚙️ **Loading Technique**        |
 | ---------------------------------------- | ------------------------------- |
 | **Server Component (App Router)**        | `<Suspense fallback={...}>`     |
