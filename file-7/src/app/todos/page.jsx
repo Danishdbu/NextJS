@@ -5,7 +5,7 @@ const response = await fetch("https://jsonplaceholder.typicode.com/todos?_limit=
 const todos = await response.json();
   return (
     <>
-      <h1>Posts</h1>
+      <h1>Todos</h1>
       <div className="todos-conatiner">
         {todos.map(({id,title,completed}) =>(
           <div className="todo-item" key={id}>
