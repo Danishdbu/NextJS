@@ -10,7 +10,7 @@
 
 # ⚡ Parallel Data Fetching in Next.js
 
-Parallel data fetching improves performance by loading multiple resources simultaneously. This is especially useful in **Next.js App Router (13+)** where both server and client strategies can be combined.
+Parallel data fetching improves performance by loading multiple resources simultaneously. This is especially useful in **Next.js App Router ** where both server and client strategies can be combined.
 
 ---
 
