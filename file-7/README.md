@@ -1,4 +1,4 @@
-#💡 Loading Strategy Overview
+💡 Loading Strategy Overview
 ---
 | 🔍 **Use Case**                          | ⚙️ **Loading Technique**        |
 | ---------------------------------------- | ------------------------------- |
