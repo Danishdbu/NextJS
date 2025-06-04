@@ -7,7 +7,7 @@
 | **Client-Side Fetching (`useEffect`)**   | `useState` + `useEffect`        |
 | **Static Generation (`getStaticProps`)** | No loading needed at runtime    |
 ---
-'''
+
 # ⚡ Parallel Data Fetching in Next.js
 
 Parallel data fetching improves performance by loading multiple resources simultaneously. This is especially useful in **Next.js App Router (13+)** where both server and client strategies can be combined.
